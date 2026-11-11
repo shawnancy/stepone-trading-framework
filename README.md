@@ -35,4 +35,4 @@
 
 ## 这份语料怎么来的
 
-用 Grok Bot 内置的 X 接口，按用户 id 分页拉取 `@StepOneAi` 的时间线（每页最多 25 条），并补拉了 [凯利公式这篇](https://x.com/StepOneAi/status/2119629074134073799) 的全文（`note_tweet`）和若干关键词搜索。去重后约 634 条写入 [raw/index.jsonl](./raw/index.jsonl)，留下 109 条有观点的摘要；骂人、纯社交短回复和纯转发已去掉。更细的时间线见 [corpus.md](./corpus.md)。
+用 Grok Bot 内置的 X 接口，按用户 id 分页拉取 `@StepOneAi` 的时间线（每页最多 25 条），并补拉了 [凯利公式这篇](https://x.com/StepOneAi/status/2119629074134073799) 的全文（`note_tweet`）和若干关键词搜索。去重后约 634 条写入本地抓取索引 raw/index.jsonl（原始抓取文件未随仓库上传），留下 109 条有观点的摘要；骂人、纯社交短回复和纯转发已去掉。更细的时间线见 [corpus.md](./corpus.md)。

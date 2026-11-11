@@ -17,7 +17,7 @@
 | 语料保留 | **109** 条有策略、仓位、回测、执行或市场结构观点的摘要；纯社交、对喷、无观点短回复和纯转发已去掉 |
 | 已知缺口 | 公开搜索未见「量化心得一」「量化心得三」，可能未发或已删；部分长帖 API 只返回开篇或正文在附图里；编辑帖会留下多个 id，下面只保留 canonical 一版 |
 
-完整字段见 [raw/index.jsonl](./raw/index.jsonl)，抓取记录见 [raw/fetch_meta.json](./raw/fetch_meta.json)。长文优先使用 API 的 `note_tweet` 全文。
+完整字段见本地抓取文件 raw/index.jsonl，抓取记录见 raw/fetch_meta.json（这两份原始文件未随仓库上传）。长文优先使用 API 的 `note_tweet` 全文。
 
 ---
 
