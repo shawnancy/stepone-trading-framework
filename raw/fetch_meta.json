@@ -1,0 +1,22 @@
+{
+  "account": "@StepOneAi",
+  "name": "SK",
+  "user_id": "1772310624988708864",
+  "profile": "Quant · AI · Market Making | Build systematic liquidity & alpha",
+  "location": "Singapore",
+  "followers_at_fetch": 6157,
+  "tweet_count_at_fetch": 686,
+  "account_created_at_utc": "2024-03-25T17:12:43.000Z",
+  "tool": "Grok Bot x MCP get_users_posts (max_results=25, paginated) + get_posts_by_id + search_posts_all supplements",
+  "window": "get_users_posts 分页至无 next_token；主内容约 2026-07-21 至 2026-11-10（北京时间）",
+  "pages": 28,
+  "x_calls_approx": 32,
+  "unique_posts_in_index": 634,
+  "known_gaps": [
+    "公开搜索与时间线中未见「量化心得一」「量化心得三」，可能未发或已删",
+    "部分长帖 API 只返回开篇（或正文在附图里），如资金费率口径二/三、Funding Rate 信号优化、套利学习笔记、部分因子检验帖",
+    "编辑过的帖会留下多个 id，语料里保留最长或最晚的一版",
+    "骂战、纯社交短回复、纯转发已剔除"
+  ],
+  "fetched_at_beijing": "2026-11-10 21:10 左右 北京时间"
+}
